@@ -1,3 +1,7 @@
+/************************************
+ *          ECMASript 6
+ ***********************************/
+
 
 // Default values
 function myFunctionES6(color = 'yellow', country = 'Venezuela', sex = 'woman'){
