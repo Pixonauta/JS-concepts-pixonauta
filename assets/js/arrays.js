@@ -21,3 +21,8 @@ console.log("Removing first item from array: "+ races);
 /* IndexOf */
 var dwarfPosition = races.indexOf("Dwarf")
 console.log("Position of Dwarf: "+ dwarfPosition);
+
+/* Example with splice */
+races.splice(2,2,"Gnome", "Goblin", "Swan");
+
+console.log(races);
