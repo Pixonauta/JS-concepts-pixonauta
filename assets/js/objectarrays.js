@@ -1,6 +1,6 @@
 /* Object Arrays */
 
-var characters = [
+let characters = [
     { age: 30, sex: "Man", class: "Spartan", weapon: "Spear", race: "Orc" },
     { age: 40, sex: "Man", class: "Priest", weapon: "Staff", race: "Faun" },
     { age: 25, sex: "Woman", class: "Ninja", weapon: "Kusarigama", race: "Human" },
@@ -11,11 +11,16 @@ var characters = [
 
 /* Array filter:  */
 /* allows us to filter elements by a particular parameter */
-var onlyHumans = characters.filter(function(character){
+let onlyHumans = characters.filter(character => character.race == "Human" );
+console.log(onlyHumans);
+
+var onlyHumans2 = characters.filter(function(character){
     return character.race == "Human";
 })
 console.log(onlyHumans);
 
+let ageCharacter = characters.filter(character => character.age > 30);
+console.log(ageCharacter);
 /* Array Map:  */
 /* We build an array with the selected parameters */
 
