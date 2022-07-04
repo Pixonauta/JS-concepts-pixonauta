@@ -21,3 +21,5 @@ const stringES8 = 'hello';
 console.log(stringES8.padStart(9, 'say '));
 
 console.log(stringES8.padEnd(11, ' world'));
+
+//Asyc & Await...
