@@ -52,4 +52,4 @@ console.log(Object.fromEntries(entries))
 //-------------symbol object--------------------/
 let mySymbol = 'My Symbol';
 let symbol = Symbol(mySymbol);
-console.log(symbol.description);```
+console.log(symbol.description);
